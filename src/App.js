@@ -29,7 +29,6 @@ function App() {
                <Product/> 
 
               {/* <Fourthpage /> */}
-              <ContactUs />
               <Fifthpage /> 
             </div>
           }
