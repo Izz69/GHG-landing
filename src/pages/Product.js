@@ -12,10 +12,7 @@ export default function Product() {
             to track, analyze, and reduce greenhouse gas emissions with
             precision. Designed for sustainability professionals, policymakers,
             and environmental analysts, this intuitive platform transforms
-            complex emissions data into easy-to-understand visual insights. With
-            real-time analytics, customizable dashboards, and in-depth reporting
-            tools, our software helps you make informed decisions, meet
-            regulatory standards, and achieve sustainability goals.
+            complex emissions data into easy-to-understand visual insights.
           </p>
           <a href="https://stellanovaghg.streamlit.app/">Go to Product
 
