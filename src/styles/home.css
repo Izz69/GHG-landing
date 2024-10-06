@@ -5,7 +5,7 @@
     top: 11vh; /* Align to the top */
     left: 0; /* Align to the left */
     width: 100vw; /* Full viewport width */
-    height: 89vh; /* Full viewport height */
+    height: 100vh; /* Full viewport height */
     overflow: hidden; /* Prevent overflow */
     z-index: 0; /* Send to back */
 }
@@ -25,7 +25,7 @@
 .page1 {
     position: relative; /* Create a positioning context for the child elements */
     z-index: 1; /* Bring to front */
-    height: 89vh; /* Full viewport height */
+    height: 100vh; /* Full viewport height */
     width: 100vw; /* Full viewport width */
     overflow: hidden; /* Hide overflow */
 }
@@ -37,7 +37,7 @@
 }
 
 .page1 .slick-slide {
-    height: 89vh; /* Full height for each slide */
+    height: 100vh; /* Full height for each slide */
     display: flex; /* Flex for center alignment */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
