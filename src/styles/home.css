@@ -46,7 +46,7 @@
 .page1 .slider h5{
     color: white;
     text-align: start;
-    font-size: 59px;
+    font-size: 8vh;
     margin-left: 10%;
     font-weight: 400;
     font-family: "Tourney", "Bruce Forever", sans-serif; /* Correctly specify the font */
@@ -62,7 +62,7 @@
     
 }
 .page1 .slider .smaller-text{
-    font-size:44px;
+    font-size:6vh;
 }
 
 .page1 .slick-slide img {
@@ -73,7 +73,7 @@
     margin-left: 10%;
     width: 73%;
     margin-top: 2%;
-    font-size: 2px;
+    font-size: 4vh;
     font-family: "Leelawadee UI";
     color: white; /* Change caption color to white */
     text-align: start; 
@@ -89,7 +89,7 @@
     border-radius: 7px;
     border: none;
     font-family: "Leelawadee UI";
-    font-size: 20px;
+    font-size: 2vh;
     font-weight: 700;
     color:rgba(255, 255, 255, 1);
     text-transform: uppercase;
@@ -98,7 +98,6 @@
 }
 
 .page1 .slick-slide .slide-content h5 {
-    font-size: 80px; /* Increase font size */
     font-weight: 400;
     font-family: "Tourney", "Bruce Forever", sans-serif; /* Correctly specify the font */
     text-transform: uppercase;
@@ -106,7 +105,7 @@
 }
 
 .page1 .slick-slide .slide-content p {
-    font-size: 30px; /* Adjust the font size of paragraph text */
+    font-size: 3vh; /* Adjust the font size of paragraph text */
     margin: 0; /* Remove default margin */
 }
 
@@ -114,9 +113,7 @@
     -webkit-text-stroke: 1px rgba(255, 255, 255, 1);
 }
 
-.page1 .slick-slide .slide-content .smaller-text {
-    font-size: 44px; /* Keep this or adjust as needed */
-}
+
 
 .page1 .slick-prev,
 .page1 .slick-next {
