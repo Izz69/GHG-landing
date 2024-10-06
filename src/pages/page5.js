@@ -39,10 +39,10 @@ Be part of the solution.
             <div class="footer">
 
                 <div class="firstrow">
-                    <div class="imagecontainer">
-    <img src={logo} alt=""/>
+    //                 <div class="imagecontainer">
+    // <img src={logo} alt=""/>
                             
-                    </div>
+    //                 </div>
                     <div class="searchcontainer">
                         <h4>Subscribe</h4>
                         <p>
