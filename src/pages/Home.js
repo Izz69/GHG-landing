@@ -74,7 +74,7 @@ export default function Home() {
                             </h5>
                                 <div className="slide-content">
                                     <p>{slide.message}</p>
-                                    //<button>{slide.buttontext}</button>
+                                  
                                 </div>
                             </div>
                         ))}
