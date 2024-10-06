@@ -38,11 +38,7 @@ Be part of the solution.
             </div> */}
             <div class="footer">
 
-                <div class="firstrow">
-    //                 <div class="imagecontainer">
-    // <img src={logo} alt=""/>
-                            
-    //                 </div>
+       
                     <div class="searchcontainer">
                         <h4>Subscribe</h4>
                         <p>
@@ -50,7 +46,7 @@ Be part of the solution.
                         </p>
                         <div class="subscription-container">
                             <input type="email" class="email-input" placeholder="Enter your email Address" required/>
-                            <button class="get-started-button">Get Started</button>
+                            <a href="mailto:ansarrizwan83@gmail.com"><button class="get-started-button">Get Started</button></a>
                         </div>
                     
                     </div>
