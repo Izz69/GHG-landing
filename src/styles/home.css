@@ -2,7 +2,7 @@
 
 .video-animation {
     position: absolute; /* Use absolute positioning */
-    top: 11vh; /* Align to the top */
+    top: 0vh; /* Align to the top */
     left: 0; /* Align to the left */
     width: 100vw; /* Full viewport width */
     height: 100vh; /* Full viewport height */
