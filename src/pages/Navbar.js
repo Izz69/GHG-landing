@@ -9,9 +9,8 @@ export default function Navbar(){
             <ul>
                 {/* <li><img src={logo} /></li> */}
                 <li><span class="menu">
-                // <li><a href="#">Register</a></li>
-                // <li><a href="#">About Us</a></li>
-                // <li><a href="#">Contact Us</a></li>
+                 <li><a href="#"><h2>GHG Insights</h2></a></li>
+            
                 </span></li>
 
             </ul>
@@ -19,10 +18,7 @@ export default function Navbar(){
         <div class="right-side">
             <ul>
                 <li>
-                    // <button id="button1">SIGN IN</button>
-                </li>
-                <li>
-                    // <button id="button2">LOGIN</button>
+                    <h2>Stella Nova</h2>
                 </li>
 
             </ul>
