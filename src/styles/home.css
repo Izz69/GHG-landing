@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,100..900;1,100..900&display=swap");
+
+.video-animation {
+    position: absolute; /* Use absolute positioning */
+    top: 11vh; /* Align to the top */
+    left: 0; /* Align to the left */
+    width: 100vw; /* Full viewport width */
+    height: 89vh; /* Full viewport height */
+    overflow: hidden; /* Prevent overflow */
+    z-index: 0; /* Send to back */
+}
+
+.video-animation video {
+    position: absolute; /* Positioning for the video */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    min-width: 100%; /* Ensure it covers full width */
+    min-height: 100%; /* Ensure it covers full height */
+    width: auto; /* Maintain aspect ratio */
+    height: auto; /* Maintain aspect ratio */
+    transform: translate(-50%, -50%); /* Center the video */
+    object-fit: cover; /* Cover the area while maintaining aspect ratio */
+}
+
+.page1 {
+    position: relative; /* Create a positioning context for the child elements */
+    z-index: 1; /* Bring to front */
+    height: 89vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    overflow: hidden; /* Hide overflow */
+}
+
+.page1 .slider {
+    z-index: 2;
+    width: 100%; /* Full width of the parent */
+    height: 100%; /* Full height of the parent */
+}
+
+.page1 .slick-slide {
+    height: 89vh; /* Full height for each slide */
+    display: flex; /* Flex for center alignment */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background: transparent; /* Transparent background for carousel items */
+}
+.page1 .slider h5{
+    color: white;
+    text-align: start;
+    font-size: 59px;
+    margin-left: 10%;
+    font-weight: 400;
+    font-family: "Tourney", "Bruce Forever", sans-serif; /* Correctly specify the font */
+    text-transform: uppercase;
+    
+    /* top: 74.4px; */
+    /* left: 87.02px; */
+
+}
+.page1 .slider .bigger-text {
+  
+    -webkit-text-stroke:1px rgba(255, 255, 255, 1); 
+    
+}
+.page1 .slider .smaller-text{
+    font-size:44px;
+}
+
+.page1 .slick-slide img {
+    opacity: 0; /* Fully transparent images */
+}
+
+.page1 .slick-slide .slide-content {
+    margin-left: 10%;
+    width: 73%;
+    margin-top: 2%;
+    font-size: 2px;
+    font-family: "Leelawadee UI";
+    color: white; /* Change caption color to white */
+    text-align: start; 
+    z-index: 20;
+    background-color: transparent;
+    
+}
+.page1 .slider .slide-content button{
+    background-color: rgba(255, 45, 85, 1);
+    padding: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 7px;
+    border: none;
+    font-family: "Leelawadee UI";
+    font-size: 20px;
+    font-weight: 700;
+    color:rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    margin-top: 4%;
+    
+}
+
+.page1 .slick-slide .slide-content h5 {
+    font-size: 80px; /* Increase font size */
+    font-weight: 400;
+    font-family: "Tourney", "Bruce Forever", sans-serif; /* Correctly specify the font */
+    text-transform: uppercase;
+    margin: 0; /* Remove default margin */
+}
+
+.page1 .slick-slide .slide-content p {
+    font-size: 30px; /* Adjust the font size of paragraph text */
+    margin: 0; /* Remove default margin */
+}
+
+.page1 .slick-slide .slide-content .bigger-text {
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 1);
+}
+
+.page1 .slick-slide .slide-content .smaller-text {
+    font-size: 44px; /* Keep this or adjust as needed */
+}
+
+.page1 .slick-prev,
+.page1 .slick-next {
+    border: 2px solid rgba(255, 232, 232, 1); /* Light pink border */
+    height: 70px; /* Control button height */
+    width: 70px; /* Control button width */
+    border-radius: 50%; /* Circular buttons */
+    position: absolute; /* Positioning */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust vertical centering */
+}
+
+.page1 .slick-prev {
+    left: 2%; /* Left margin for prev button */
+}
+
+.page1 .slick-next {
+    right: 2%; /* Right margin for next button */
+}
+
+.page1 .slick-prev:before,
+.page1 .slick-next:before {
+    color: rgba(255, 255, 255, 1); /* Arrow color */
+    font-size: 30px; /* Arrow size */
+}
+
+.page1 .slick-prev:hover:before,
+.page1 .slick-next:hover:before {
+    color: rgba(255, 255, 255, 0.8); /* Change color on hover */
+}

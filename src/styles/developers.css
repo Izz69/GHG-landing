@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+.devpage{
+    width: 100vw;
+    height: 100vh;
+    padding: 3%;
+    background-color: #18141A;
+}
+.devpage .text{
+    font-family: "Leelawadee UI";
+color: white;
+
+}
+.devpage .text h2{
+    font-size: 45px;
+    color: white;
+    font-family: "Leelawadee UI";
+    font-weight:700;
+    }
+    .devpage .text p{
+        font-size: 25px;
+        font-family: "Leelawadee UI";
+        font-weight: 400;
+        color: white;
+        }
+.devpage .cards{
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    justify-content: center; /* Center the cards horizontally */
+    gap: 5%;
+    
+    margin-top: 5%;
+    
+}
+
+.devpage .cards .card{
+    padding: 15px;
+
+}

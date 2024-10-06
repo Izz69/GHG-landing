@@ -1,0 +1,63 @@
+
+*{margin: 0;
+    padding:0;
+    }
+    
+    .body{
+      width: 80vw;
+      height: 100vh;
+      /* background-color: black; */
+      margin: auto;
+    }
+    .body .slick-prev,.body .slick-next {
+      font-size: 30px; /* Change the size */
+      /* color: #fff; Change the color */
+      opacity: 0.75; /* Set initial opacity */
+      transition: opacity 0.3s; /* Smooth transition */
+      
+      position: absolute; /* Make sure the buttons are positioned relative to the slider */
+    top: 10%; /* Move the arrows up (20% from the top of the slider) */
+    z-index: 1; /* Ensure arrows are on top */
+    }
+    .slick-prev:hover, .slick-next:hover {
+      opacity: 1; /* Full opacity on hover */
+    }
+    
+    .slick-prev {
+      left: 5px; 
+    }
+    
+    .slick-next {
+      right: 10px; /* Position the right arrow */
+    }
+    
+    /* Optional: Add custom background to arrows */
+    /* .slick-prev:before, .slick-next:before {
+      content: '  <  '; /* Remove default arrow icon */
+    /* } */
+     */
+    .slick-prev {
+        background-size: contain; /* Adjust the size */
+      width: 40px; /* Custom width */
+      height: 40px; /* Custom height */
+    }
+    
+    .slick-next {
+      background-size: contain; /* Adjust the size */
+      width: 40px; /* Custom width */
+      height: 40px; /* Custom height */
+    }
+    
+    .body .slick-prev:before,.body .slick-next:before {
+      color:white ; /* Change arrow color */
+      font-size: 40px; /* Increase arrow size */
+      color: rgba(255, 45, 85, 1);
+      
+      opacity: 1; /* Ensure arrows are fully opaque */
+    }
+    /* .body .slick-slider .slick-list .slick-track .slick-slide {
+      /* width: 575px !important; */
+    
+    .body .slick-slider{
+        padding-left: 6%;
+    }

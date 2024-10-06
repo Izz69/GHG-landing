@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.productpage{
+    width: 100vw;
+    display: flex;
+    background-color:rgba(24, 20, 26, 1);
+    height: 100vh;
+    color: white;
+}
+
+
+.productpage .pleftside
+{
+    width: 60%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    font-family: "Montserrat";
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.productpage .pleftside h1{
+    margin-bottom: 5%;
+}
+
+
+
+.productpage .pleftside a{
+    padding: 2.5%;
+    padding-left: 30%;
+    padding-right: 30%;
+font-weight: 700;
+font-size: 20px;
+font-family: "Montserrat";
+    border-radius: 7px;
+    background-color: rgba(255, 45, 85, 1);
+    color: white;
+    border: none;
+margin-top: 7%;
+    /* position: relative;
+    right: 30%;
+    top: 10%; */
+
+}
+.productpage .pleftside a{
+    text-decoration: none;
+    transition: 0.25s ease-in-out;
+}
+.productpage .pleftside a:hover{
+    border: 1px solid white;
+    color:rgba(255, 45, 85, 1);
+    background-color: white;
+
+}
+.productpage .prightside{
+    width: 40%;
+    height: 100%;
+    background-color: transparent;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.productpage .prightside .prightsideimage{
+        width: 80%;
+        height: 50%;
+         border-radius: 10px; 
+        overflow:scroll;
+        
+}
+.productpage .prightside .prightsideimage::-webkit-scrollbar {
+    display: none;
+}
+.productpage .prightside .prightsideimage img{
+    width: fit-content;
+    height: fit-content;
+}

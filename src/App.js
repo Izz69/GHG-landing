@@ -1,23 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
-
+// import logo from "./logo.svg";
+import "./App.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import Thirdpage from "./pages/page3";
+import Home from "./pages/Home";
+import Navbar from "./pages/Navbar";
+import Fourthpage from "./pages/page4";
+// import Secondpage from "./pages/page2";
+import Fifthpage from "./pages/page5";
+import Developers from "./pages/Developers";
+import ContactUs from "./pages/Contact";
+import {Routes,Route} from "react-router-dom";
+import Product from "./pages/Product";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route
+          index
+          element={
+            <div className="body">
+
+              
+             <Navbar />
+              <Home />
+               {/* <Secondpage /> */}
+               <Thirdpage />
+               <Product/> 
+
+              {/* <Fourthpage /> */}
+              <ContactUs />
+              <Fifthpage /> 
+            </div>
+          }
+        />
+        <Route
+          path="/devs"
+          element={
+            <div className="body">
+              {/* <Developers /> */}
+            </div>
+          }
+        />
+      </Routes>
     </div>
   );
 }

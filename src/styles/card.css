@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cardcontainer{
+    /* margin-top: 1%; */
+    background-color: black;
+width: 30vw;
+height: 30vh;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 15px;
+display: flex;
+flex-direction: column;
+color: white;
+justify-content: space-between;
+}
+.uppercontainer{
+    /* background-color: red; */
+    display: flex;
+    justify-content: end;
+}
+.uppercontainer button, .lowercontainer button{
+    margin: 2%;
+    padding: 3%;
+    padding-left: 4%;
+    padding-right: 4%;
+    border-radius:7px ;
+    border: none;
+    background: rgba(255, 45, 85, 1);
+    color: white;
+    font-family: "Leelawadee UI";
+    
+
+}
+.lowercontainer button{
+    width: 125px;
+}
+.lowercontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lowercontainer .innercontainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+
+}
+.lowercontainer .innercontainer .group1{
+    display: flex;
+    font-family: "Leelawadee UI";
+    gap: 10px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.lowercontainer .innercontainer .group1 img{
+    width: 10%;
+    border-radius: 60%;
+}
+.lowercontainer .innercontainer .group2 {
+    margin-top: 1%;
+    position: relative;
+    right: 0%;
+}
+.lowercontainer .innercontainer .group2 span{
+    font-family: "Leelawadee UI";
+    font-weight: 900;
+
+    
+}
+    

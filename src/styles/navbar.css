@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navi{
+    height: 11vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    overflow: hidden;
+}
+.navi ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.navi .left-side ul li{
+    
+    margin-left: 60px;
+}
+.navi .left-side ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 130%;
+    font-family: "Leelawadee UI";
+    
+
+}
+.navi .left-side ul li .menu{
+    display: flex;
+    margin-left:40px;
+    
+}
+.navi .left-side ul li img{
+    width: 62.88px    ;
+    height: 59.4px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.navi .right-side{
+    margin-right: 120px;
+}
+.navi .right-side ul li{
+    margin-right: 45px;
+}
+
+.navi .right-side ul li button{
+    padding: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    font-family: "Leelawadee UI";
+    font-weight: 700;
+}
+.navi .right-side ul li #button1{
+    background-color:transparent;
+}
+.navi .right-side ul li #button2{
+    background-color:rgba(255, 45, 85, 1);
+    border: rgba(255, 45, 85, 1);
+
+    
+}

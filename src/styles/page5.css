@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.page5{
+    width: 100vw;
+    /* height: 130vh; */
+    
+    background-color:rgba(24, 20, 26, 1);
+    text-align: start;
+    z-index: -1;   
+    overflow-x: hidden;
+
+}
+.first-section{
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    z-index: 0;
+
+}
+.first-section .left-side{
+    margin-left: 3%;
+}
+
+.first-section .left-side h3{
+    font-size: 60px;
+    font-family: "Leelawadee UI";
+    font-weight: 700;
+    color: white;
+}
+.first-section .left-side h5{
+    font-size: 32px;
+    font-family: "Leelawadee UI";
+    margin-top: 1%;
+    color:  rgba(255, 255, 255, 0.6);
+    
+
+}
+.first-section .left-side p{
+    margin-top: 1%;
+    font-size: 26px;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Leelawadee UI";
+}
+.first-section .left-side .buttons{
+    margin-top: 5%;
+
+}
+.first-section .left-side .buttons a{
+    text-decoration: none;
+}
+.first-section .left-side .buttons a button{
+    padding: 1.5%;
+    padding-left: 4%;
+    border: 1px solid rgba(255, 255, 255, 1);
+    background-color: transparent;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 7px;
+    padding-right: 4%;
+    font-weight: 700;
+
+}
+
+
+.first-section .left-side .buttons a #button1{
+    background-color:  rgba(255, 255, 255, 1);
+    color: rgba(24, 20, 26, 1);
+    font-size: 16px;
+}
+.first-section .left-side .buttons a #button2{
+    /* background-color:  rgba(255, 255, 255, 1);
+    color: rgba(24, 20, 26, 1); */
+    font-size: 16px;
+    margin-left: 40px;
+}
+
+.first-section .right-side{
+    margin: auto;
+}
+
+.page5 .footer{
+    background:transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    z-index: 2;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+    
+}
+.page5 .footer .firstrow{
+    display: flex;
+    margin-top: 5%;
+}
+.page5 .footer .secondrow{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.page5 .footer .secondrow ul{
+ list-style: none;
+ display: flex;
+ gap: 30px;
+    
+}
+.page5 .footer .secondrow ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.subscription-container {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-top: 50px; /* Adjust as needed */
+}
+
+.email-input {
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    padding: 10px 20px;
+    width: 300px; /* Adjust width as needed */
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.email-input::placeholder {
+    color: #aaa; /* Placeholder color */
+    font-style: italic; /* Placeholder style */
+}
+
+.email-input:focus {
+    border-color: #d9534f; /* Change border color on focus */
+}
+
+.get-started-button {
+    background-color: #1e1e2f;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px; /* Space between input and button */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.get-started-button:hover {
+    background-color: #d9534f; /* Button hover color */
+}
+
+.firstrow .iconcontainer{
+    margin-right: 5%;
+}
+.firstrow .listcontainer ul,.firstrow .iconcontainer ul {
+    list-style: none;
+
+}
+.firstrow .listcontainer ul li,.firstrow .iconcontainer ul li{
+margin-top: 4px;
+}
+.firstrow .listcontainer ul li a,.firstrow .iconcontainer ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.firstrow{
+    justify-content: space-between;
+    align-items: center;
+}
+.secondrow{
+    margin-top: 3%;
+}
+
+.firstrow .searchcontainer p{
+    color: white;
+}
+
+.firstrow .searchcontainer h4{
+    color: white;
+}
+.secondrow .left p{
+    color: white;
+}
+.secondrow .right p{
+    color: white;
+}
+
+.firstrow .imagecontainer{
+    width: 20%;
+}
+.firstrow .imagecontainer img{
+    width: 100%;
+}

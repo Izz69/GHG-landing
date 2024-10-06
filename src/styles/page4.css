@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.page4{
+    width: 100vw;
+    height: 55vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    background-color:rgba(24, 20, 26, 1);
+
+}
+.buds-intro{
+    margin-top: 2%;
+    width: 100%;
+    height: 50%;
+    
+    display: flex;
+    
+}
+.buds-intro .left-side{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left:3% ;
+    padding-right:3% ;
+padding-top: 3%;
+    /* background-color: #5547A9; */
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    font-family: "Leelawadee UI";
+}
+.buds-intro .right-side{
+    margin: auto;
+}
+.card-container{
+    /* border: 3px solid black; */
+    margin-top: 1%;
+    margin-left: 7%;
+    overflow: hidden;
+    width: 30%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+     background: linear-gradient(292.41deg, #2D265B 0%, #5547A9 43.26%),
+    linear-gradient(358.56deg, #2D265B 7.43%, #5547A9 98.87%);
+    color: white;
+    border-radius: 7px;
+    padding-left: 2%;
+    padding-right: 2%;
+
+display: flex;
+flex-direction: column;
+align-items: start;
+}
+.event{
+    width: 25vw;
+    height: 50vh;
+    position: relative;
+    
+    right: 10%;
+    border-radius: 50%;
+}
+.logo{
+    height: 10vh;
+    border-radius: 50%;
+}
+.imagecontainer{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+}
+.card-container a{
+    
+    text-decoration: none;
+    
+}
+.card-container p{
+   font-family: "Leelawadee UI";
+   font-weight: 700;
+   font-size: 20px;
+   text-align: start;
+}
+.card-container a button{
+    padding: 10px;
+
+    background-color: transparent;
+    border-radius: 7px;
+    text-transform: uppercase;
+    color: white;
+    border:1px solid white;
+    
+}
+.image{
+    border-radius: 7px;
+    margin-bottom: 1%;
+    background-color: white;
+    
+}
