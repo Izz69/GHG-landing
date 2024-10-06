@@ -22,7 +22,7 @@ function App() {
             <div className="body">
 
               
-             <Navbar />
+             
               <Home />
                {/* <Secondpage /> */}
                <Thirdpage />
